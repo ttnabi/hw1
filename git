@@ -5,3 +5,5 @@ git remote add origin link -привязывает ваш репозиторий
 
 всегда
 git add file/.-lобавляет файлы в пуш
+git commit -m 'result'- чекпоинт
+git push origin master/main
