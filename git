@@ -12,7 +12,7 @@ git push origin master/main
 
 
 .gitignore - скрытие файлов
-git rm cached namrfile -удаляет файлы из репозирия
+git rm --cached namrfile -удаляет файлы из репозирия
 
 
 git remote remove origin--отвязка проекта от гита
