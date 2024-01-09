@@ -1,6 +1,6 @@
-# ООП Наследование полиморфизм ИНкапсуляцию
-
-
+# ООП Наследование полиморфизм
+# Инкапсуляцию
+#
 class Hum(object):  # супер класс - родительский класс
     # магический метод
     def __init__(self, name):
@@ -57,9 +57,13 @@ class Kid2(Kid):
         super().__init__(name, age, lastname)
         self.fly = fly
 
-    def __str__(self):...
+    def __str__(self):
+        return f"{super().__str__()}, " \
+               f"name: {self.name}, age: {self.age}," \
+               f" latname: {self.last}, can fly: {self.fly}"
 
 
 kid = Kid2('beka', 11, 'wer', False)
 
 print(kid)
+

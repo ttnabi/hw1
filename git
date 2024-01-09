@@ -4,6 +4,10 @@ git init - инициализация гита
 git remote add origin link -привязывает ваш репозиторий к проектку
 
 всегда
-git add file/.-lобавляет файлы в пуш
+git add file/.-добавляет файлы в пуш
 git commit -m 'result'- чекпоинт
 git push origin master/main
+
+
+
+git remote remove origin--отвязка проекта от гита
