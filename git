@@ -16,4 +16,10 @@ git rm --cached namrfile -удаляет файлы из репозирия
 git rm --cached -r namrdir -удаляет папки из репозирия
 
 
-git remote remove origin--отвязка проекта от гита
+
+
+git remote remove origin -- отвязка проекта от гита
+
+
+
+git clone link -- клонирование прокта
