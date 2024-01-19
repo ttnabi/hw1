@@ -65,5 +65,5 @@ class Human2:
 Human2.hello(hum)
 print(hum)
 
-
+from beka import beka1
 # git, github gitlub bitbaket

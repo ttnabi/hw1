@@ -1,6 +1,7 @@
 # ООП Наследование полиморфизм
 # Инкапсуляцию
 #
+from lesson1 import Human
 class Hum(object):  # супер класс - родительский класс
     # магический метод
     def __init__(self, name):
