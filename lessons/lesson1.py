@@ -49,7 +49,7 @@ hum.age = 10
 print(hum.age)
 print(hum2.RT)
 hum.Hi()
-
+hum3.
 
 class Human2:
     def __init__(self, name, age, nikname, abilka):
