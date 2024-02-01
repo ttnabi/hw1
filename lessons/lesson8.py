@@ -64,6 +64,7 @@ def delete_student(conn, id):
         print(Error)
 
 
+
 sql_create_table = '''CREATE TABLE IF NOT EXISTS student(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 full_name VARCHAR(50) NOT NULL,
